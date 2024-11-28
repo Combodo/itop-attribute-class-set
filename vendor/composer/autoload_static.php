@@ -21,11 +21,9 @@ class ComposerStaticInitcbd6df4890e7eae89a57fd92edfade9e
     );
 
     public static $classMap = array (
-        'Combodo\\iTop\\ItopAttributeClassSet\\Controller\\ItopAttributeClassSetController' => __DIR__ . '/../..' . '/src/Controller/ItopAttributeClassSetController.php',
         'Combodo\\iTop\\ItopAttributeClassSet\\Helper\\ItopAttributeClassSetException' => __DIR__ . '/../..' . '/src/Helper/ItopAttributeClassSetException.php',
         'Combodo\\iTop\\ItopAttributeClassSet\\Helper\\ItopAttributeClassSetHelper' => __DIR__ . '/../..' . '/src/Helper/ItopAttributeClassSetHelper.php',
         'Combodo\\iTop\\ItopAttributeClassSet\\Helper\\ItopAttributeClassSetLog' => __DIR__ . '/../..' . '/src/Helper/ItopAttributeClassSetLog.php',
-        'Combodo\\iTop\\ItopAttributeClassSet\\Service\\ItopAttributeClassSetService' => __DIR__ . '/../..' . '/src/Service/ItopAttributeClassSetService.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
