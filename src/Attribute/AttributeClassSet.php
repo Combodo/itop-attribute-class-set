@@ -47,7 +47,7 @@ class AttributeClassSet extends AttributeSet
 	 * @return int|string|null
 	 * @throws \Combodo\iTop\ItopAttributeClassSet\Helper\ItopAttributeClassSetException
 	 */
-	public function GetDefaultValue(DBObject $oHostObject = null)
+	public function GetDefaultValue(?DBObject $oHostObject = null)
 	{
 		try {
 			$sDefault = parent::GetDefaultValue($oHostObject);
